@@ -1,0 +1,102 @@
+
+body {
+
+  width:100vw;
+  height: 100vh;
+  margin: 0;
+}
+#videoBG {
+  position:fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videoBG {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videoBG {
+      width:auto;
+      height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #videoBG {
+      display: none;
+  }
+  body {
+
+
+
+      background: url('poster.jpg');
+      background-size: cover;
+  }
+}
+
+
+
+
+}
+
+h1 {
+  color: white;
+  font-family: Sacramento;
+  margin-bottom: 0
+
+}
+h2{
+  font-family: Sacramento;
+  color: #191970;
+  width: 200px;
+  height: 200px
+}
+h3{
+  font-family: Montserrat;
+}
+
+
+.cloud2 {
+  position: absolute;
+  right: 800px;
+}
+
+.cloud1 {
+  position: absolute;
+  left: 800px;
+}
+
+.div1{
+  margin-left: 540px;
+
+
+}
+
+
+.hello{
+  margin-left: 560px;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+
+.skillsgif{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 500px;
+}
+
+.skills2{
+  margin-left: 450px;
+  padding-bottom: 100px;
+}
+.skillsheading{
+  margin-left: 550px;
+}
+.ending{
+
+  margin-left: 450px;
+}
